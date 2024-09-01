@@ -1070,10 +1070,3 @@ class Manipulation(Analysis):
     def dimensionality_reduction(self):
         pass
 
-file_path = '/Users/harrisonclarke/Desktop/Coding/new_eda_test/IRIS.csv'
-data = pd.read_csv(file_path)
-# preprocessing = Pre_Processing(data, project = 'test', target=None)
-#encoded_data = preprocessing.encoder()
-
-analyse_data = Analysis(data, 'test', target = None)
-analyse_data.begin_analysis()
