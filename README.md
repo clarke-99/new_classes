@@ -23,6 +23,16 @@ This repository contains the latest iteration of my custom classes aimed at auto
     - Uses stored data types to automate encoding, including the option for users to generate custom mappings for ordinal encoding.
     - Tests for normality using the most appropriate statistical test based on sample size, ensuring accurate results.
 
+## How to Use
+
+### Pre_Processing(data, project)
+- **Data:** Your data.
+- **Project:** The name of your project, this is where the files and figures will be saved, currently it is only set up to save files in my test directory.
+
+### Analysis(data, project, target) 
+- **Target:** This feature will be implemented later, and will allow you to specify the feature you wantto predict/classify etc.
+
+analyse_data.begin_analysis()
 ## Future Work
 Development of these classes is ongoing. The next steps include:
 - Implementing methods for identifying and removing outliers using a variety of techniques (parametric and non-parametric) to ensure that true outliers are detected while preserving important data points.
