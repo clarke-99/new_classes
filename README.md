@@ -30,7 +30,7 @@ This repository contains the latest iteration of my custom classes aimed at auto
 - **Project:** The name of your project, this is where the files and figures will be saved, currently it is only set up to save files in my test directory.
 
 ### Analysis(data, project, target) 
-- **Target:** This feature will be implemented later, and will allow you to specify the feature you wantto predict/classify etc.
+- **Target:** This feature will be implemented later, and will allow you to specify the feature you want to predict/classify etc.
 
 analyse_data.begin_analysis()
 ## Future Work
